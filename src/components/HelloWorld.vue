@@ -3,31 +3,38 @@
     <h1>{{ msg }}</h1>
     
   </div>
-  <div class="animationtry"></div>
+  
 </template>
+<!-- for jquery try
+  <div class="animationtry"></div> -->
 
 <script>
-import $ from 'jquery'
+
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
   },
-  // $("nav").click()
+  // $("nav").click()  --?
+  
+}
+
+</script>
+<!-- 
+  import $ from 'jquery'
   method: {
     $function(){
       $("hello").click(function(){
         $("animationtry").addClass("animated  rotateIn");               
       })
     }
-  }
-}
-</script>
+  }      initially in <script>-->
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
   font-size: 80px;
+  color:rgb(82, 23, 0)
 }
 h3 {
   margin: 40px 0 0;
@@ -44,10 +51,12 @@ a {
   color: #42b983;
 }
 .hello {
-  background-color: burlywood;
+  background-color: rgb(255, 215, 162);
 }
-.animationtry {
+
+</style>
+<!-- for jquery try
+  .animationtry {
   background-color: aqua;
   height: 30vh;
-}
-</style>
+}-->
