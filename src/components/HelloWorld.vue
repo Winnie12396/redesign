@@ -3,13 +3,23 @@
     <h1>{{ msg }}</h1>
     
   </div>
+  <div class="animationtry"></div>
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   name: 'HelloWorld',
   props: {
     msg: String
+  },
+  // $("nav").click()
+  method: {
+    $function(){
+      $("hello").click(function(){
+        $("animationtry").addClass("animated  rotateIn");               
+      })
+    }
   }
 }
 </script>
@@ -32,5 +42,12 @@ li {
 }
 a {
   color: #42b983;
+}
+.hello {
+  background-color: burlywood;
+}
+.animationtry {
+  background-color: aqua;
+  height: 30vh;
 }
 </style>
