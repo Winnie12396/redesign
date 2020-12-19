@@ -22,6 +22,8 @@ export default {
   width: 100vw;
   height: 100vh;
   z-index: 0;
+  position: fixed;
+
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8b2fed+0,e064bf+30,ffb74c+66,ffd089+100 */
   background: #8b2fed; /* Old browsers */
   background: -moz-linear-gradient(45deg,  #8b2fed 0%, #e064bf 30%, #ffb74c 66%, #ffd089 100%); /* FF3.6-15 */

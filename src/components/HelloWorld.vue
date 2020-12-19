@@ -34,11 +34,9 @@ export default {
 <style scoped>
 h1 {
   font-size: 80px;
-  color:rgb(82, 23, 0);
+  color:rgb(255, 255, 255);
 }
-h3 {
-  margin: 40px 0 0;
-}
+
 ul {
   list-style-type: none;
   padding: 0;
@@ -53,7 +51,7 @@ a {
 .hello {
   background-color: transparent;
   z-index: 100;
-  position: fixed;
+  position: relative;
   
 }
 
