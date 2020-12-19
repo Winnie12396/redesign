@@ -34,7 +34,8 @@ export default {
 <style scoped>
 h1 {
   font-size: 80px;
-  color:rgb(82, 23, 0)
+  color:rgb(82, 23, 0);
+  
 }
 h3 {
   margin: 40px 0 0;
@@ -51,8 +52,16 @@ a {
   color: #42b983;
 }
 .hello {
-  background-color: rgb(255, 215, 162);
+  background-color: rgb(255, 255, 255);
+  z-index: 100;
+  position: fixed;
 }
+.home {
+  width: 100vw;
+  height: 100vh;
+  z-index: 0;
+}
+
 
 </style>
 <!-- for jquery try
