@@ -2,6 +2,7 @@ module.exports = {
   lintOnSave: false
 }
 
+//引入jquery
 const webpack = require("webpack");
 
 module.exports = {

@@ -1,7 +1,17 @@
 <template>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
   <div class="home">
+    <div class="bg">
+      <img src="~@/images/4444.jpg" alt="background picture">
+      
+    </div>
+    <div class="title">
+      <HelloWorld msg="清華藝術學院"/>
+    </div>
     
-    <HelloWorld msg="清華藝術學院"/>
   </div>
 </template>
 
@@ -18,20 +28,41 @@ export default {
 </script>
 
 <style>
-.home {
-  width: 100vw;
-  height: 100vh;
-  z-index: 0;
+.bg {
   position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
 
+}
+.bg img {
+  min-height: 100%;
+  width: 100%;
+}
+
+.title {
+  letter-spacing: 15px;
+  padding-top: 10vh;
+  z-index: 100;
+  display: inline-block;
+  margin: 0 0.5rem;
+  animation: zoomIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 1.7s; /* don't forget to set a duration! */
+}
+</style>
+
+<!--
+  background-image: url("~@/images/4444.jpg");
+-->
+
+<!-- 
+  background gradient:
   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8b2fed+0,e064bf+30,ffb74c+66,ffd089+100 */
   background: #8b2fed; /* Old browsers */
   background: -moz-linear-gradient(45deg,  #8b2fed 0%, #e064bf 30%, #ffb74c 66%, #ffd089 100%); /* FF3.6-15 */
   background: -webkit-linear-gradient(45deg,  #8b2fed 0%,#e064bf 30%,#ffb74c 66%,#ffd089 100%); /* Chrome10-25,Safari5.1-6 */
   background: linear-gradient(45deg,  #8b2fed 0%,#e064bf 30%,#ffb74c 66%,#ffd089 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8b2fed', endColorstr='#ffd089',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
-
-
-}
-</style>
+-->
