@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="home2">
+    <div class="bg">
+      <img src="~@/images/4444.jpg" alt="background picture">  
+    </div>
   </div>
 </template>

@@ -37,7 +37,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 h1 {
-  font-size: 80px;
+  font-size: 85px;
   color:rgb(255, 255, 255);
 }
 
