@@ -15,7 +15,7 @@
       <h1>清華藝術學院</h1>
     </div>
     <div class="button">
-      <a href="/About.vue">Click</a>
+      <router-link to="/home2">Click</router-link>
     </div>
     
   </div>
