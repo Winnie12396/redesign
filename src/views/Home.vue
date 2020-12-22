@@ -34,6 +34,7 @@ export default {
 </script>
 
 <style>
+
 a {
   text-decoration: none;
   color: rgba(34, 0, 49, 0.65);
