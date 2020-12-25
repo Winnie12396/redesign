@@ -9,7 +9,7 @@
       
     </div>
     <div class="title">
-      <HelloWorld msg="清華藝術學院"/>
+      <h1>清華藝術學院</h1>
     </div>
     <div class="title-shadow">
       <h1>清華藝術學院</h1>
@@ -23,11 +23,11 @@
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
+//import HelloWorld from '@/components/HelloWorld.vue'
 export default {
   name: 'Home',
   components: {
-    HelloWorld
+    
   }
 }
 
@@ -55,6 +55,8 @@ a {
 }
 
 .title {
+  font-size: 45px;
+  color:rgb(255, 255, 255);
   letter-spacing: 15px;
   top: 10vh;
   left: 21vw;
@@ -66,11 +68,11 @@ a {
   position: relative;
 }
 .title-shadow {
-  font-size: 43px;
+  font-size: 45px;
   color:rgba(42, 0, 54, 0.25);
   letter-spacing: 15px;
   top: 12vh;
-  right: 18%;
+  right: 19vw;
   z-index: 90;
   display: inline-block;
   margin: 0 0.5rem;

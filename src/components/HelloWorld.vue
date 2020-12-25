@@ -1,8 +1,4 @@
 <template>
-  <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
-  />
   <div class="hello">
     <h1>{{ msg }}</h1>
     
@@ -33,6 +29,7 @@ export default {
       })
     }
   }      initially in <script>-->
+
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>

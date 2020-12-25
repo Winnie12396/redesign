@@ -8,7 +8,7 @@
       <img src="~@/images/4444.jpg" alt="background picture">
     </div>
     <div class="bgline">
-      <img src="~@/images/line.png" alt="background line">
+      <img src="~@/images/line.png" alt="background decoration">
     </div>
     <div class="ball ball1">
       <a href="">關於學院</a>
@@ -38,6 +38,9 @@
 </template>
 
 <style>
+  .home2 {
+    display: flex;
+  }
   .bg2 {
     position: fixed;
     top: 0;
@@ -49,6 +52,7 @@
 
   }
   .bg2 img {
+    justify-content: center;
     min-height: 100%;
     width: 100%;
   }
@@ -57,11 +61,11 @@
     left: 25vw;
     top: 0;
     z-index: 10;
-    height: 100vh;
   }
   .bgline img {
     min-height: 100%;
     width: 100%;
+    height: 100%;
   }
   .ball {
     text-align: center;
@@ -76,8 +80,8 @@
     
   }
   .ball1 {
-    top: 360px;
-    left: 290px;
+    top: 50vh;
+    left: 19vw;
     text-align: center;
     margin: 0 0.5rem;
     animation: fadeInLeft; /* referring directly to the animation's @keyframe declaration */
@@ -87,7 +91,7 @@
     width: 100px;
     position: relative;
     font-size: 25px;
-    top: 240px;
+    top: 33vh;
     left: 140px;
     text-align: center;
     margin: 0 0.5rem;
@@ -96,8 +100,8 @@
   }
   .ball2 {
     opacity: 0%;
-    top: 170px;
-    right: 240px;
+    top: 24vh;
+    right: 16vw;
     margin: 0 0.5rem;
     animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1.3s; /* don't forget to set a duration! */
@@ -106,8 +110,8 @@
   }
   .ball3 {
     opacity: 0%;
-    top: 440px;
-    right: 310px;
+    top: 60vh;
+    right: 20vw;
     margin: 0 0.5rem;
     animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1.3s; /* don't forget to set a duration! */
@@ -119,8 +123,8 @@
     width: 100px;
     position: relative;
     font-size: 25px;
-    top: 90px;
-    left: 1230px;
+    top: 43vh;
+    left: 73vw;
     text-align: center;
     margin: 0 0.5rem;
     animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
@@ -130,8 +134,8 @@
   }
   .ball4 {
     opacity: 0%;
-    top: 730px;
-    right: 550px;
+    top: 100vh;
+    right: 36vw;
     margin: 0 0.5rem;
     animation: fadeInRight; /* referring directly to the animation's @keyframe declaration */
     animation-duration: 1.3s; /* don't forget to set a duration! */
